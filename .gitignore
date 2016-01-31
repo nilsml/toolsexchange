@@ -1,3 +1,4 @@
+*.swp
 # elm-package generated files
 .DS_Store
 elm.js
