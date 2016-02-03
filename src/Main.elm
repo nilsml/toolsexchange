@@ -23,7 +23,6 @@ view address model =
       [ div [ A.class "column_6" ]
         [ h2 [ A.class "text italic thin" ] [ text "Much amaze!" ]
         ]
-      ]
       , nav [ A.class "column_6 text right" ]
         [ a [ A.href "#"
             , A.class "button"
@@ -32,6 +31,7 @@ view address model =
               , text "Login"
               ]
         ]
+      ]
     ]
 
 
@@ -49,17 +49,19 @@ stylesheet href =
 
 
 {-|
-
- <header class="bck margin-top margin-bottom">
+<section class="bck theme landing text center">
         <div class="row">
-            <div class="column_6">
-                <img src="/img/product/tuktuk.png" class="logo on-left"/>
-                <h2 class="text italic thin">Landing Template</h2>
+            <div class="column_10 offset_1">
+                <h1><strong>tuk</strong>tuk</h1>
+                <h2 class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
             </div>
-            <nav class="column_6 text right">
-                <a href="#" class="button"><span class="icon user"></span>Login</a>
-                <a href="#" class="button bck theme"><span class="icon pencil"></span>Signup</a>
-            </nav>
         </div>
-    </header>
+        <div class="row">
+            <div class="column_6 offset_3 form subscribe">
+                <input type="email" id="mail" class="large" placeholder="Your email address">
+                <button class="button large icon envelope"></button>
+            </div>
+        </div>
+        <h5 class="text book">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    </section>
 |-}
