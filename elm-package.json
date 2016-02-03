@@ -1,10 +1,10 @@
 {
     "version": "1.0.0",
     "summary": "Database of shared tools",
-    "repository": "git@github.com:nilsml/toolsexchange.git",
+    "repository": "https://github.com/nilsml/toolsexchange.git",
     "license": "BSD3",
     "source-directories": [
-        "src""
+        "src"
     ],
     "exposed-modules": [],
     "dependencies": {
