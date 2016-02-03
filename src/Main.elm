@@ -14,7 +14,7 @@ model = 0
 
 
 view address model =
-  div []
+  body []
     [ stylesheet "../css/tuktuk.css"
     , stylesheet "../css/tuktuk.grid.css"
     , stylesheet "../css/tuktuk.icons.css"
