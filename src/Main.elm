@@ -1,4 +1,7 @@
-import Html exposing (div, button, text)
+import Array
+import Html exposing (..)
+import Html.Shorthand exposing (..)
+import Html.Attributes as A
 import Html.Events exposing (onClick)
 import StartApp.Simple as StartApp
 
@@ -12,8 +15,22 @@ model = 0
 
 view address model =
   div []
-    [ text "such wow"]
+    [ stylesheet "../css/tuktuk.css"
+    , stylesheet "../css/tuktuk.grid.css"
+    , stylesheet "../css/tuktuk.icons.css"
+    , stylesheet "../css/tuktuk.theme.default.css"
+    , h1_ "such wow"
+    ]
 
 
 update action model =
   model
+
+
+
+stylesheet : String -> Html
+stylesheet href =
+  node "link"
+    [ A.rel "stylesheet"
+    , A.href href
+    ] []
