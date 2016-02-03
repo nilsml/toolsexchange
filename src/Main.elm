@@ -32,6 +32,10 @@ view address model =
               ]
         ]
       ]
+    , section [ A.class "bck theme landing text center" ]
+      [ div [ A.class "column_10 offset_1" ]
+        [ h1 [] [ strong [] [ text "TEST" ] ] ]
+      ]
     ]
 
 
